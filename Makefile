@@ -1,10 +1,9 @@
 obj-m := n_xbee.o
 
-KERNELDIR := ./kernel/
+KERNELDIR := /usr/src/linux
 
 PWD := $(shell pwd)
-
-CC := ${OE}/tmp/cross/armv7a/bin/arm-angstrom-linux-gnueabi-gcc
+CC := gcc
 
 default: driver ldisc_daemon
 

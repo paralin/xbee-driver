@@ -1,4 +1,3 @@
-
 == XBEE Driver ==
 
 This is a Linux kernel driver that allows you to use a Digi Xbee module in API
